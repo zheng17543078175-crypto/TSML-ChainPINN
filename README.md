@@ -33,6 +33,13 @@ The model reconstructs velocity, pressure, and liquid volume fraction from space
 
 ## Quick start
 
+Download the source:
+
+```bash
+git clone https://github.com/zheng17543078175-crypto/TSML-ChainPINN.git
+cd TSML-ChainPINN
+```
+
 From the repository root:
 
 ```bash
@@ -148,7 +155,7 @@ python -m pip install -e ".[all]"
 python -m pytest -q
 ```
 
-Tests cover chain rules, conservative momentum, ZGB source signs, masks, freezing, batch equivalence, split leakage, mesh conversion, resume equivalence, and inference. [Local validation](docs/VALIDATION.md) records executed checks. GitHub Actions configuration is supplied; remote CI has not run until the repository is hosted.
+Tests cover chain rules, conservative momentum, ZGB source signs, masks, freezing, batch equivalence, split leakage, mesh conversion, resume equivalence, and inference. [Local validation](docs/VALIDATION.md) records executed checks. Check [GitHub Actions](https://github.com/zheng17543078175-crypto/TSML-ChainPINN/actions) for the current remote CI status.
 
 ## Citation and contribution
 

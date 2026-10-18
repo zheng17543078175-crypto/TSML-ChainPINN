@@ -11,7 +11,8 @@ This repository is a new paper-oriented implementation of the 2026-10-18 revisio
 | Weights trained with the revised protocol | Not bundled; require new training |
 | Reproduction of published numerical values | Not performed |
 | Legacy code/checkpoints | Preserved outside this standalone repository |
-| GitHub hosting / remote CI / package-index publishing | Not performed by this delivery |
+| Hosted source and remote CI | See the [repository](https://github.com/zheng17543078175-crypto/TSML-ChainPINN) and [current workflow runs](https://github.com/zheng17543078175-crypto/TSML-ChainPINN/actions) |
+| Package-index publishing | Not published to PyPI; install from the source repository |
 
 ## Reproduce a new experiment
 

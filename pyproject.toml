@@ -20,6 +20,11 @@ all = ["pyvista>=0.43", "vtk>=9.2", "pytest>=7", "matplotlib>=3.7"]
 [project.scripts]
 tsml = "tsml_chainpinn.cli:main"
 
+[project.urls]
+Repository = "https://github.com/zheng17543078175-crypto/TSML-ChainPINN"
+Documentation = "https://github.com/zheng17543078175-crypto/TSML-ChainPINN/tree/main/docs"
+Issues = "https://github.com/zheng17543078175-crypto/TSML-ChainPINN/issues"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
