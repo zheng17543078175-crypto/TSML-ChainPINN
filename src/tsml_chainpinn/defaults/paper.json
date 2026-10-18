@@ -1,0 +1,34 @@
+{
+  "model": {"width": 512, "depth": 10, "bands": 64, "heads": 8, "softplus_beta": 2.0},
+  "training": {
+    "batch_size": 4096,
+    "microbatch_size": 64,
+    "steps_per_epoch": 1000,
+    "epochs": [80, 120, 160],
+    "learning_rates": [0.001, 0.0005, 0.0001],
+    "warmup_epochs": 20,
+    "gradient_clip": 1.0,
+    "cavitation_fraction": 0.2,
+    "cavitation_threshold": 0.9,
+    "focal_gamma": 2.0,
+    "hybrid_weights": [1.0, 0.5, 2.0],
+    "stage3_phase_weight": 14.0,
+    "stage1_physics_weights": [0.1, 0.05],
+    "stage3_physics_weights": [0.05, 0.05, 0.1]
+  },
+  "physics": {
+    "rho_liquid": 998.2,
+    "rho_vapor": 0.02375,
+    "mu_liquid": 0.001003,
+    "mu_vapor": 0.0000134,
+    "reference_velocity_m_s": 18.0,
+    "reference_length_m": 0.0155,
+    "vapor_pressure_pa": 3169.0,
+    "f_vap": 50.0,
+    "f_cond": 0.01,
+    "alpha_nuc": 0.0005,
+    "bubble_radius_m": 0.000001,
+    "positive_part_width_pa": 1.0,
+    "huber_delta": 1.0
+  }
+}

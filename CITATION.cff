@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the implementation. The associated manuscript is identified in README.md."
+type: software
+title: "TSML-ChainPINN: three-stage physics-informed learning for transient cavitation"
+version: 0.3.0
+date-released: 2026-10-18
+authors:
+  - name: "TSML-ChainPINN contributors"
+license: MIT
+keywords:
+  - physics-informed neural networks
+  - cavitation
+  - multiphase flow
+  - PyTorch
+  - Zwart-Gerber-Belamri

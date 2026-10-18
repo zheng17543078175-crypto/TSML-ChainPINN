@@ -1,0 +1,16 @@
+{
+  "condition": "C1",
+  "coordinate_scale_to_m": 1.0,
+  "velocity_scale_to_m_s": 1.0,
+  "pressure_scale_to_pa": 1.0,
+  "pressure_offset_to_absolute_pa": 101325.0,
+  "volume_block_path": ["s-fluent"],
+  "velocity_field": "velocity",
+  "pressure_field": "pressure",
+  "phase_field": "phase_2_vof",
+  "phase_kind": "vapor",
+  "snapshots": [
+    {"id": 1, "time_s": 0.0, "file": "actual_snapshot_001.vtkhdf"},
+    {"id": 2, "time_s": 0.005, "file": "actual_snapshot_002.vtkhdf"}
+  ]
+}

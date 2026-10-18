@@ -1,0 +1,16 @@
+{
+  "iou": 0.82,
+  "f1": 0.89375,
+  "precision": 0.82,
+  "cavity_occupancy_error": 0.17999999999999997,
+  "velocity_magnitude_mae_m_s": 0.8239308314513523,
+  "pressure_demeaned_mae_pa": 59.23118863225568,
+  "alpha_mae": 0.38021916526839866,
+  "mode": "final",
+  "seed": 1337,
+  "snapshots": 40,
+  "evaluation": "full_original_mesh_no_resampling",
+  "manifest_sha256": "60c94b5e851940d8ff65fcf55ae88620331a1b43f53e1219fe499cf75151c8ce",
+  "config_sha256": "7f56740a2bf6d5ce7cd33055166145f086a479872be857c94c454fa78e983629",
+  "data_kind": "SYNTHETIC_WORKFLOW_DEMO_NOT_CFD"
+}
